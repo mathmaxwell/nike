@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+.nav {
+    background-color: #322E41;
+}
+
+.nav_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_list {
+    display: flex;
+    list-style: none;
+}
+
+.nav_link {
+    padding: 23px 18px;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    transition: 0.5s;
+}
+
+.nav_link:hover {
+    color: #D47300;
+    background-color: #fff;
+}
+
+.intro {
+    background-image: url(../images/intro_bg.png);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.intro_title {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 58.59px;
+}
+
+.intro_text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+}
+
+.intro_text span {
+    font-weight: 700;
+}
+
+.main {
+    background: #EBEBEB;
+}
+
+.nike_box {
+    display: flex;
+    gap: 30px;
+    transform: translateY(-30px);
+}
+
+.nike_left {
+    max-width: 540px;
+    width: 100%;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+.nike_left_title {
+    margin: 15px 0;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 25.78px;
+}
+
+.nike_left_text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    color: #9B9B9B;
+    text-align: justify;
+}
+
+.nike_right {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.nike_right_card {
+    width: 255px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 12px;
+}
+
+.nike_right_title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.nike_right_text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #9B9B9B;
+}
+
+.footer {
+    background-color: #322E41;
+    padding: 40px 0;
+}
+
+.footer_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.footer_form {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    width: 100%;
+    gap: 10px;
+}
+
+.footer_nav {
+    display: flex;
+    gap: 50px;
+
+}
+
+.footer_input,
+.footer_textarea {
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.footer_textarea {
+    resize: none;
+    height: 86px;
+}
+
+.footer_input::placeholder {
+    color: #9B9B9B;
+}
+
+.footer_btn {
+    background-color: #544294;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 9px 0;
+}
+
+.footer_list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer_link {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.footer_link:hover {
+    color: #D47300;
+}
+
+.menu,
+.close {
+    width: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+#checkbox {
+    display: none;
+}
